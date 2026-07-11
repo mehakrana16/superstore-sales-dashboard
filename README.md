@@ -55,8 +55,7 @@ This dashboard turns raw retail sales data into a clean, decision-ready view for
 
 ## 📸 Screenshots
 
-> Add screenshots of both pages here (export from Power BI Desktop: *File → Export → Export to PDF*, then convert pages to PNG, or just take screenshots).
-
+> 
 ```
 screenshots/
 ├── dashboard-page.png
