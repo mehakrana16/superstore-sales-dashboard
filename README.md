@@ -11,6 +11,15 @@ An interactive **Power BI** dashboard built on the Superstore Sales dataset — 
 
 This dashboard turns raw retail sales data into a clean, decision-ready view for business stakeholders — covering revenue trends, profitability by segment, regional performance, and a short-term sales forecast.
 
+**At a glance:**
+
+| Metric | Value |
+|---|---|
+| 💰 Total Sales | **1.57M** |
+| 📈 Total Profit | **175.26K** |
+| 📦 Orders | **22K** |
+| 🚚 Avg. Ship Days | **3.93** |
+
 ## 🌟 What Makes This Stand Out
 
 - **Predictive Forecasting** — The Forecasting page doesn't just plot historical data. It uses Power BI's built-in **exponential smoothing forecast algorithm** to project future sales trends, complete with a **95% confidence interval band**, so stakeholders can see both the predicted trend and its uncertainty range.
@@ -40,6 +49,17 @@ This dashboard turns raw retail sales data into a clean, decision-ready view for
 - 15-day Sales Forecast (line chart)
 - Sales by State — forecast page
 
+## 📌 Key Insights
+
+- **Office Supplies** leads category-wise sales at 0.64M, followed by Technology (0.47M) and Furniture (0.45M)
+- **Phones, Chairs, and Binders** are the top-performing sub-categories
+- **Standard Class** shipping accounts for the majority of sales (0.91M), well ahead of Second Class, First Class, and Same Day
+- **Consumer segment** drives the most sales (48%), followed by Corporate (33%) and Home Office (19%)
+- **COD (43%)** is the leading payment mode, followed by Online (35%) and Cards (22%)
+- **West (33%)** and **East (29%)** regions contribute the highest share of sales
+- **California, New York, and Texas** are the top-selling states
+- Sales show a clear year-over-year uptick from 2019 to 2020, with the 15-day forecast projecting continued upward momentum
+
 ## 🖥️ Report Pages
 
 | Page | Description |
@@ -55,12 +75,11 @@ This dashboard turns raw retail sales data into a clean, decision-ready view for
 
 ## 📸 Screenshots
 
-> 
-```
-screenshots/
-├── dashboard-page.png
-└── forecasting-page.png
-```
+**Dashboard**
+![Dashboard Page](screenshots/dashboard-page.png)
+
+**Forecasting**
+![Forecasting Page](screenshots/forecasting-page.png)
 
 ## 🚀 How to Use
 
